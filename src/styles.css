@@ -466,6 +466,40 @@ textarea:focus {
   margin: 0;
 }
 
+.login-page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 32px 22px;
+  background:
+    linear-gradient(135deg, rgba(255, 240, 245, 0.95), rgba(255, 255, 255, 0.98) 48%, rgba(232, 248, 248, 0.98)),
+    repeating-linear-gradient(90deg, rgba(255, 142, 179, 0.12) 0 1px, transparent 1px 34px);
+}
+
+.login-panel {
+  width: min(100%, 520px);
+  padding: 34px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.login-panel h1 {
+  margin-bottom: 14px;
+  font-size: clamp(34px, 6vw, 52px);
+}
+
+.login-panel p {
+  color: var(--muted);
+}
+
+.login-form {
+  display: grid;
+  gap: 16px;
+  margin-top: 24px;
+}
+
 @media (max-width: 900px) {
   .site-header {
     padding: 0 22px;

@@ -6,10 +6,11 @@ import Portfolio from "./components/Portfolio.jsx";
 import Plans from "./components/Plans.jsx";
 import MessageBoard from "./components/MessageBoard.jsx";
 import Footer from "./components/Footer.jsx";
+import PasswordGate from "./components/PasswordGate.jsx";
 
 export default function App() {
   return (
-    <>
+    <PasswordGate>
       <Header />
       <main>
         <Hero />
@@ -20,6 +21,6 @@ export default function App() {
         <MessageBoard />
       </main>
       <Footer />
-    </>
+    </PasswordGate>
   );
 }

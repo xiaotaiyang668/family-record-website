@@ -18,8 +18,8 @@ export default function Hero() {
       </div>
       <div className="hero-photo">
         <img
-          src="https://placehold.co/980x720/e8f0e8/3f5f4b?text=Family+Photo"
-          alt="家庭照片占位图"
+          src="images/family/sunny-closeup.jpg"
+          alt="孩子抱着玩偶的温暖生活照"
         />
       </div>
     </section>
